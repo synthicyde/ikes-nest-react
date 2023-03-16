@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="popup.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	</head>
+	<body id="mainbody">
+		<div id="images">
+			<img id="ike_button" src="/images/ike48.png" width="48" height="48">
+			<img id="logo" src="/images/icims_logo.png" height="48">
+		</div>
+		<div class="links" id="search_care_site">
+			<form id="search_care_site_form">
+				<input type="text" id="search_query" name="search_query" value="" placeholder="Search Care Site">
+				<input type="submit" id="search_query_btn" name="search_query_btn" value="Search">
+			</form>
+		</div>
+		<div class="links" id="user_links_container">
+			<h1>Community Links</h1>
+			<ul id="user_links">
+			</ul>
+		</div>
+		<div class="links" id="other_links_container">
+			<h1>Other Links</h1>
+			<ul id="other_links">
+				<li><a href="https://jps-admin-tool-bff.production.env.icims.tools/ui#/job-feed" target="_blank">Job Feed</a></li>
+				<li><a href="https://media.icims.com/training/iForms%20Library/iFormsLibrary.html" target="_blank">Standard Forms</a></li>
+				<li><a href="https://www.figma.com/file/FN2qHbAWOPoPRcuYzGE66B/Altru-Embed-widget-Player-Options---Public" target="_blank">VS Widget Types</a></li>
+			</ul>
+		</div>
+		<div class="links" id="portal_pass_container">
+			<h1>Current Portal Pass</h1>
+			<form id="portal_pass_form">
+				<input type="text" id="portal_pass" name="portal_pass" value="">
+				<input type="submit" id="portal_pass_btn" value="Save">
+			</form>
+		</div>
+		<script src="popup.js"></script>
+	</body>
+</html>
